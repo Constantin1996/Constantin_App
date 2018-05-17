@@ -1,6 +1,6 @@
 # README
 
-Hello, my name is Constantin Schmidt and I am a professional track and field athlete. Welcome to my first application.
+Hello, my name is Constantin Schmidt Welcome to my first application.
 
 Things you may want to cover:
 
