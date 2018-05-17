@@ -11,18 +11,17 @@
 
   <body>
     <nav>
-  		<ul>
-    		<li><a href="http://localhost:3000/">Home</a></li>
-    		<li><a href="http://localhost:3000/simple_pages/about">About</a></li>
-    		<li><a href="http://localhost:3000/simple_pages/contact">Contact</a></li>
-  		</ul>
-	  </nav>
+      <ul>
+        <li><%= link_to "Home", root_path %></li>
+        <li><%= link_to "About", simple_pages_about_path %></li>
+        <li><%= link_to "Contact", simple_pages_contact_path %></li>
+      </ul>
+    </nav>
 
     <%= yield %>
 
   <footer class="site-footer">
   		&copy; Constantin_App
 	</footer>
-    <%= yield %>
   </body>
 </html>
